@@ -37,16 +37,16 @@ mysqli_close($db); // Close connection
 
 <form method="POST">
     <label for="Name">Enter Name: </label>
-    <input type="text" placeholder="Enter Name" name="Name"><br>
+    <input type="text" placeholder="Enter Name" name="Name"><br><br>
     <label for="Username">Enter username: </label>
-    <input type="text" placeholder="Enter username" name="Username" ><br>
+    <input type="text" placeholder="Enter username" name="Username" ><br><br>
     <label for="Password">Enter password: </label>
-    <input type="password" placeholder="Enter password" name="Password"><br>
-    Re-enter password:<input type="password" placeholder="Confirm password" name="Password"><br>
+    <input type="password" placeholder="Enter password" name="Password"><br><br>
+    Re-enter password:<input type="password" placeholder="Confirm password" name="Password"><br><br>
     <label for="Address">Enter Address: </label>
-    <input type="textarea" placeholder="Enter address" name="Address"><br>
+    <input type="textarea" placeholder="Enter address" name="Address"><br><br>
     <label for="Phonenumber">Enter Phone number: </label> 
-    <input type="text" placeholder="Enter phonenumber" name="Phonenumber"><br>        
+    <input type="text" placeholder="Enter phonenumber" name="Phonenumber"><br><br>        
     <input type="submit" name="submit" value="Submit"><br>
 </form>
 
