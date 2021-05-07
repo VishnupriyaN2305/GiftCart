@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Fetch image from database in PHP</title>
+  <title>Gift Cart</title>
 </head>
 <body>
 
+<?php
+session_start();
+if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+    echo "Welcome to the member's area, " . $_SESSION['username'] . "!";
+}
+else {
+    echo "Please log in first to see this page.";
+}
+
+
+?>
 <h2>All Records</h2>
 
 <table border="2">
