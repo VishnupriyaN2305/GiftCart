@@ -30,7 +30,7 @@ if(isset($_POST['submit'])) {
             session_start();
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $username;
-            header("Location: member.php");
+            header("Location: product.php");
         }
         else {
             echo "Incorrect Password";
