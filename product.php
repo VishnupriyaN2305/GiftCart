@@ -18,7 +18,7 @@
 
 include "dbConn.php"; // Using database connection file here
 
-$records = mysqli_query($db,"select prod_name,cost,pic1 from product"); // fetch data from database
+$records = mysqli_query($db,"select prod_name,cost,pic1 from products"); // fetch data from database
 
 while($data = mysqli_fetch_array($records))
 {
