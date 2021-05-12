@@ -1,0 +1,50 @@
+.container {
+    display: inline;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#col-1 {
+    background-color:#e6889a;
+    border: #fcf9fa;
+    max-width: 42rem;
+    min-height: 40rem;
+    margin: 10vmin 0vmin 10vmin 10vmin;
+    padding: 15vmin 0vmin 0vmin 0vmin;
+}
+#col-2 {
+    border: #e6889a solid;
+    max-width: 42rem;
+    min-height: 40rem;
+    margin: 10vmin 10vmin 10vmin 0vmin;
+    padding: 15vmin 0vmin 0vmin 0vmin;
+    background:url('images/pink-bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+body {
+    background:url('images/new1.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.section {
+    padding: 5vmin 0vmin 5vmin 0vmin;
+    margin: 0vmin 10vmin 10vmin 10vmin;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;     
+}
+.heading {
+    padding: 3vmin 0vmin 3vmin 0vmin;
+}
+.box {
+    padding: 2vmin 0vmin 2vmin 0vmin;
+}
+.place {
+    box-shadow: 5px 10px 8px #888888;
+}
+.btn {
+    background-color: #e6889a;
+    color: #FFF;
+    box-shadow: 5px 10px 8px #888888;
+    padding: 0vmin 8.5vmin 0vmin 8.5vmin;
+}
