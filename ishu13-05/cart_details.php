@@ -49,7 +49,10 @@ while($row = mysqli_fetch_array($result))
 } 
 ?>
 </table>
-
+<?php
+echo "total cost= " .$cost;
+$_SESSION['cost']=$cost;
+?>
 <input type="button" name="place order" value="place order" onclick="document.location.href='placeorder.php'"><br>
 
 
