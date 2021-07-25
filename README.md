@@ -16,7 +16,8 @@ An online shopping webpage for customized gifts<br><br>
  thrilled to be a part of a customer's satisfaction.
  We hope you enjoy our products as much as we enjoy
  offering them to you. If you have any questions or
- comments, please don't hesitate to contact us.<br>
+ comments, please don't hesitate to contact us.<br><br>
+ 
  Sincerely,<br>
  Ishwariya Rani M - 2019103527<br>
  Navvya L         - 2019103548<br>
