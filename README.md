@@ -1,5 +1,7 @@
-Welcome to GIFTCART<br>
+# GIFTCART
 An online shopping webpage for customized gifts<br><br>
+ 
+ DBMS Project
  
  Your one stop source for different customised 
  products where customers can add pictures of their
